@@ -1,13 +1,13 @@
-let initialWeight = 6000; // Исходный вес в граммах
-let targetWeight = 5000; // Желанный вес в граммах
+let initialWeight = 6000 // Исходный вес в граммах
+let targetWeight = 5000 // Желанный вес в граммах
 
-let lostInDay = 0;        // сколько грамм входит в 5%
-let days = 0;             // продолжительность тренировки в днях
+let lostInDay = 0 // сколько грамм входит в 5%
+let days = 0 // продолжительность тренировки в днях
 
 while (initialWeight > targetWeight) {
-    lostInDay = (initialWeight / 100) * 5;      // в первую итерацию, 360гр = 5% от 6000
-    initialWeight = initialWeight - lostInDay;  // обновляем вес
-    days++;                                     // добавляем день
+	lostInDay = (initialWeight / 100) * 5 // в первую итерацию, 360гр = 5% от 6000
+	initialWeight = initialWeight - lostInDay // обновляем вес
+	days++ // добавляем день
 }
 /* Техническое задание
 
@@ -20,3 +20,5 @@ while (initialWeight > targetWeight) {
 Просто посчитай, сколько дней понадобится провести в таком режиме и запиши количество в переменную days.
 
 */
+
+utrtyujtrduhdehryter
